@@ -3,14 +3,14 @@
 
 int main(void) {
 
-    printf("datatypes in size (bytes)\n");
-    printf("short: %lu\n", sizeof(short));
-    printf("int: %lu\n", sizeof(int));
-    printf("long: %lu\n", sizeof(long));
-    printf("float: %lu\n", sizeof(float));
-    printf("double: %lu\n", sizeof(double));
-    printf("long double: %lu\n", sizeof(long double));
-    printf("char: %lu\n", sizeof(char));
+    printf("Data Type\tSize (bytes)\n");
+    printf("short\t\t%lu\n", sizeof(short));
+    printf("int\t\t%lu\n", sizeof(int));
+    printf("long\t\t%lu\n", sizeof(long));
+    printf("float\t\t%lu\n", sizeof(float));
+    printf("double\t\t%lu\n", sizeof(double));
+    printf("long double\t%lu\n", sizeof(long double));
+    printf("char\t\t%lu\n", sizeof(char));
 
     return 0;
 }
