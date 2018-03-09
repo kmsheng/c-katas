@@ -8,5 +8,8 @@ int main(void) {
     // limit decimal places
     printf("example: %.2f\n", 19.2345678);
 
+    // 10 spaces with * usage
+    printf("%*d\n", 10, 1);
+
     return 0;
 }
