@@ -1,3 +1,4 @@
+// https://openhome.cc/Gossip/CGossip/HelloWorld.html
 #include <stdio.h>
 
 int main(void) {
