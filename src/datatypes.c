@@ -1,3 +1,4 @@
+// https://openhome.cc/Gossip/CGossip/Datatype.html
 #include <stdio.h>
 #include <stdlib.h>
 
