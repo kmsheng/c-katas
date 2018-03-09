@@ -9,9 +9,9 @@ int main(void) {
     scanf("%d %d", &num1, &num2);
     printf("The numbers that you input: %d %d\n", num1, num2);
 
-    printf("Please input two numbers again");
-    scanf("%d %d", &num1, &num2);
-    printf("Here you go: %d %d", num1, num2);
+    printf("Please input two numbers again, but separate them with hyphen ( - )");
+    scanf("%d-%d", &num1, &num2);
+    printf("Here you go: %d-%d", num1, num2);
 
     return 0;
 }
